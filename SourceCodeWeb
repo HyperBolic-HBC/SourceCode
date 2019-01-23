@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>HyperBolic</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                </ul>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/HyperBolicOfficial"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/HyperBolic_HBC"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@hyperbolic.hbc"><i class="fa fa-medium"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/HyperBolicOfficial"><i class="fa fa-telegram"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Welcome to HyperBolic</h3>
+
+                <h1>
+                    HBC Cloud Is The Cloud For Smarter Personal <br>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <button class="white-btn"><a href="WhitepaperHBC.pdf">Whitepaper</a></button>
+                    <button class="white-btn"><a href="https://etherscan.io/token/0x5e9a68d4d65e882707f69da2dd0778c2cf2c45c8">Explorer</a></button>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/HyperBolicOfficial"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/HyperBolic_HBC"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+            <li>
+                <a href="https://medium.com/@hyperbolic.hbc"><i class="fa fa-medium" aria-hidden="true"></i><span>Medium</span></a>
+            </li>
+            <li>
+                <a href="https://t.me/HyperBolicOfficial"><i class="fa fa-telegram" aria-hidden="true"></i><span>Telegram</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='TokenInformation' class="s-services">
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">About HyperBolic</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                Traditional business applications have always been very complicated and expensive. The amount and variety of hardware and software required to run them are daunting. You need a whole team of experts to install, configure, test, run, secure, and update them. 
+                </p>
+                <p>
+                With cloud computing HyperBolic, you eliminate those headaches that come with storing your own data, because you’re not managing hardware and software — that becomes the responsibility of an experienced vendor like Salesforce. The shared infrastructure means it works like a utility: You only pay for what you need, upgrades are automatic, and scaling up or down is easy. 
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">Application</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Adaptable</h3>
+                    <p>Cloud computing allows for adaptable programs and applications that are customizable, while allowing owners control over the core code.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Multitenant</h3>
+                    <p>Cloud software provides the opportunity to provide personalized applications and portals to a number of customers or tenants.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Reliable</h3>
+                    <p>Because it is hosted by a third party, businesses and other users have greater assurance of reliability, and when there are problems, easy access to customer support.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Scalable</h3>
+                    <p>With the Internet of Things, it is essential that software functions across every device and integrates with other applications. Cloud applications can provide this.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Secure</h3>
+                    <p>Cloud computing can also guarantee a more secure environment, thanks to increased resources for security and centralization of data.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="icon-cube"></i></div>
+                <div class="service-text">
+                    <h3 class="h2">Platform as a Service</h3>
+                    <p>The branch of cloud computing that allows users to develop, run, and manage applications without having to get caught up in code, storage, infrastructure and so on.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-2">Token Information</h1>
+                    <p>Price : 0.001$</p>
+                    <p>Name : HyperBolic</p>
+                    <p>Total Supply: 500,000,000 HBC</p>
+                    <p>Contract: 0x5e9a68d4d65e882707f69da2dd0778c2cf2c45c8</p>
+                    <p>Decimals: 18</p>
+                    <p>Token Symbol : HBC</p>
+                    <p>Owner Wallet : 0x9c3f8a898c2e72b0894284c6cb96dd9c90ba135f</p>
+                    <h1 class="display-2">Token Distribution</h1>
+                    <p>Public Sales : 360,000,000 HBC</p>
+                    <p>Team : 100,000,00 HBC</p>
+                    <p>Marketing : 10,000,000 HBC</p>
+                    <p>Airdrop : 10,000,000 HBC</p>
+                    <p>Bounty : 20,000,000 HBC</p>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-2">Roadmap</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    <p>Jan 2019 : Project Launch</p>
+                    <p>Jan 2019 : Whitepaper Release</p>
+                    <p>Jan 2019 : Token Sale</p>
+                    <p>Apr 2019 : Listing Exchange</p>
+                    <p>May 2019 : The First Cloud Computing</p>
+                    <p>Jun 2019 : Cloud Marketplace</p>
+                    <p>2020 : High Performance Computing</p>
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+        <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-2">Team</h1>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./images/team1.jpg" alt="">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Vicki Gooder</h3>
+							<span>Fouder & CEO</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./images/team2.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Merida Battle</h3>
+							<span>Community Manager</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./images/team3.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Jules Pemberton</h3>
+							<span>Program Development</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+								<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./images/team4.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Marcie Millet</h3>
+							<span>UI/UX Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+    </section> <!-- end s-clients -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class=""></div>
+                Phone : 339542155
+                <p>Email : support@hyperbolicgroup.com</p>
+
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+                <p>Address : Jurong East Street 21, Block 2578 #15-344, Singapore 601287</p>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+
+            </div>
+
+        </div> <!-- end footer-main -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright HyperBolic 2019</span> 
+                    <span>Site Template by <a href="https://hyperbolicgroup.com">HyperBolic</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
